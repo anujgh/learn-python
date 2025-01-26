@@ -8,6 +8,8 @@
 # 8. Removing an Item:           | removed_item = my_dict.pop("age")  # Remove the key "age" and get its value
 # 9. dic.clear()                 | my_dict.clear()  # Remove all items from the dictionary
 # 10. for loop in dictionary
+# 11. dic.setdefault('no',393)   | setdefault set the value of key 'no' to 393, if key 'no' is not exists in the dic
+# 11. 
 
 
 dic = {
@@ -15,7 +17,8 @@ dic = {
   'age': 23,
   'no':7
 }
-
+dic.setdefault('no',3939393)
+print('dic is : ',dic)
 dic.update({'no':100})
 
 print(dic.get('name'))
@@ -38,4 +41,8 @@ for key, value in dic.items():
   print(key, value)
 
 dic.clear()
+print(dic)
+dic.setdefault('xyz', 'pqr')
+
+print(dic['xyz'])
 print(dic)

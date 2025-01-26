@@ -1,0 +1,1 @@
+# Values of key can be same.
