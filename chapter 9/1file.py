@@ -1,0 +1,5 @@
+f = open(r"D:\a\learn python\chapter 9\file.txt")
+data = f.read()
+print('Daata is: ')
+print(data)
+f.close()
